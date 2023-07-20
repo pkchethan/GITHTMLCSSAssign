@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/1.jpg");
+    
+    
+}
+
+p{
+    color: #ff7200;
+}
+h1,h2{
+    color: white;
+    text-align: center;
+}

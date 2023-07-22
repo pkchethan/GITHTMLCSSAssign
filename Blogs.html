@@ -4,26 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
-    <a href="index.html">HOME</a>
+    
     <style>
-        #img2{
-            padding-left: 20px;
+        a{
+            float: right;
+            text-align: left;
+            color: azure;
+            font-size: larger;
         }
-
+        #home{
+            
+            text-align: left;
+            color: orange;
+            font-size: larger;
+        }
+        
+      /*  #img2{
+            border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 230px;
+    width: 50%; */
+        }
+        
         *{
     margin: 0;
     padding: 0;
     background-image: url("images/1.jpg");
-}
+        }
+        #col1{
+            float: left;
+           
+            height: 50%;
+            width: 70%;
+            padding: 10px 10px;
+        }
+        #col2{
+            float: right;
+            height: 50%;
+            width: 70%;
+            padding: 10px 10px;
+        }
+
     </style>
 </head>
 <body>
-    <div>
-    <img src="https://www.techasoft.com/blog/2023/07/1689166334.png" alt="img not loading">
+    <div id="col1">
+        <a id="home" href="index.html">Back to HOME</a>
+        <a href="https://www.techasoft.com/post/top-10-new-ai-tools-for-ui-ux-design">
+            <img id="img2" src="https://www.techasoft.com/blog/2023/07/1689166334.png" alt="img not loading">
+        </a>    
 </div>
 
-<div>
-    <img id="img2" src="	https://www.techasoft.com/blog/2023/07/1689751212.png" alt="img not loading" height="30%" >
+<div id="col1">
+    <a href="https://www.techasoft.com/post/15-big-challenges-in-mobile-app-development-you-need-to-know">
+        <img id="img2" src="https://www.techasoft.com/blog/2023/07/1689751212.png" alt="img not loading"  >
+    </a>
+    
 </div>
+
+<aside id="col1">
+    <a href="https://www.techasoft.com/post/from-idea-to-app-store-the-journey-of-mobile-app-development">
+        <img id="img2" class="blog_sec_img img-fluid" src="https://www.techasoft.com/blog/2023/07/1689751149.png" alt="From Idea To App Store: The Journey Of Mobile App Development">
+    </a>
+    
+</aside>
 </body>
 </html>
